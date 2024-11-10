@@ -66,7 +66,7 @@ function HeroesContainer() {
                 className="h-[calc(85vh-32px)] overflow-auto p-12 gap-4"
                 ref={scrollerRef}
             >
-                <div className="grid grid-cols-6 gap-4 p-2 mb-4">
+                <div className="grid grid-cols-3 gap-4 p-2 mb-4 lg:grid-cols-6">
                     {filteredHeros.slice(0, itemToShow).map((hero) => (
                         <AnimatePresence key={hero.id}>
                             <Tooltip color="secondary" content={hero.name}>
