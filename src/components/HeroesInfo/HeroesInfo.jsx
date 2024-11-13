@@ -183,7 +183,7 @@ function HeroesInfo({ onClose, hero, avatar }) {
                                                 </p>
                                             )}
 
-                                            <p className="mt-4">Familia</p>
+                                            <p className="mt-4">FAMILIA</p>
                                             <Divider />
                                             <ul className="pl-4">
                                                 {processFamilyField(
