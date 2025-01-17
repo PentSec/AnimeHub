@@ -1,5 +1,5 @@
-import { Card, Image, ScrollShadow, Spinner, Tooltip } from '@nextui-org/react'
-import { useInfiniteScroll } from '@nextui-org/use-infinite-scroll'
+import { Card, Image, ScrollShadow, Spinner, Tooltip } from "@heroui/react"
+import { useInfiniteScroll } from "@heroui/use-infinite-scroll"
 import { useGetCharacterName } from '@/hooks/useGetCharacterName'
 import { HeroesInfo, SearchHero } from '@/components'
 import { useState } from 'react'

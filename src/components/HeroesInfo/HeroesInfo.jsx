@@ -10,7 +10,7 @@ import {
     Card,
     CardBody,
     Divider
-} from '@nextui-org/react'
+} from "@heroui/react"
 
 function HeroesInfo({ onClose, hero, avatar }) {
     if (!hero) return null
@@ -62,7 +62,7 @@ function HeroesInfo({ onClose, hero, avatar }) {
                     name: match ? match[1].trim() : member.trim(),
                     details: match && match[3] ? match[3].trim() : null
                 }
-            })
+            });
     }
 
     return (
